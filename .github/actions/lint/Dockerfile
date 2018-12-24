@@ -7,6 +7,6 @@ LABEL "name"="GolangCI-Lint action" \
     "com.github.actions.name"="golangci-lint" \
     "com.github.actions.description"="This is an action to run GolangCI-Lint"
 
-ADD entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
