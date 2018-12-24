@@ -4,5 +4,5 @@ workflow "Golang workflow" {
 }
 
 action "GolangCI-Lint" {
-  uses = "./.github/actions/golang"
+  uses = "./.github/actions/lint"
 }
