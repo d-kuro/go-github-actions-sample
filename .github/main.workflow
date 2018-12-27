@@ -1,6 +1,6 @@
 workflow "Golang workflow" {
   on = "push"
-  resolves = ["GolangCI-Lint"]
+  resolves = ["Test"]
 }
 
 action "GolangCI-Lint" {
