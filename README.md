@@ -14,6 +14,12 @@ Use [golangci-lint](https://github.com/golangci/golangci-lint).
   * [Dockerfile](./.github/actions/lint/Dockerfile)
   * [entrypoint.sh](./.github/actions/lint/entrypoint.sh)
 
+## Test
+
+* sample
+  * [Dockerfile](./.github/actions/test/Dockerfile)
+  * [entrypoint.sh](./.github/actions/test/entrypoint.sh)
+
 ## License
 
 MIT License
