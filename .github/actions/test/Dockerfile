@@ -1,4 +1,4 @@
-FROM golang/1.11.4
+FROM golang:1.11.4
 
 LABEL "name"="Golang test" \
     "maintainer"="Dai Kurosawa <kurosawa7620@gmail.com>" \
