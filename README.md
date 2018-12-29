@@ -11,14 +11,14 @@ Golang GitHub Actions sample.
 Use [golangci-lint](https://github.com/golangci/golangci-lint).
 
 * sample
-  * [Dockerfile](./.github/actions/lint/Dockerfile)
-  * [entrypoint.sh](./.github/actions/lint/entrypoint.sh)
+  * [Dockerfile](./.github/actions/golang/Dockerfile)
+  * [entrypoint.sh](./.github/actions/golang/entrypoint.sh)
 
 ## Test
 
 * sample
-  * [Dockerfile](./.github/actions/test/Dockerfile)
-  * [entrypoint.sh](./.github/actions/test/entrypoint.sh)
+  * [Dockerfile](./.github/actions/golang/Dockerfile)
+  * [entrypoint.sh](./.github/actions/golang/entrypoint.sh)
 
 ## License
 
