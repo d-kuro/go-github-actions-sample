@@ -15,6 +15,7 @@ go mod verify
 
 if [[ "$1" == "lint" ]]; then
     echo "# Running GolangCI-Lint"
+    golangci-lint --version
     golangci-lint run --enable-all --disable gochecknoglobals --disable gochecknoinits
 fi
 
