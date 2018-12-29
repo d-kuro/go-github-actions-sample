@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ${GITHUB_REPOSITORY}
-echo ${GITHUB_REPOSITORY}
+echo "${GITHUB_REPOSITORY}"
 
 APP_DIR="/go/src/github.com/${GITHUB_REPOSITORY}/"
 
