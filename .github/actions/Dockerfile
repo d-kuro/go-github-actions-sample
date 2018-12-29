@@ -9,8 +9,7 @@ LABEL "name"="Golang test" \
 
 ENV LINT_VERSION="v1.12.5"
 
-RUN export PATH=$PATH:$GOPATH/bin \
-  curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin ${LINT_VERSION}
+RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin ${LINT_VERSION}
 
 COPY entrypoint.sh /entrypoint.sh
 
