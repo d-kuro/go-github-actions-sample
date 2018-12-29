@@ -13,10 +13,12 @@ if [[ "$1" == "lint" ]]; then
     echo "# Running GolangCI-Lint"
     golangci-lint --version
     golangci-lint run --enable-all --disable gochecknoglobals --disable gochecknoinits
+    echo "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEES" > hoge.txt
 fi
 
 if [[ "$1" == "test" ]]; then
     echo "#######################"
     echo "# Running Test"
     go test ./... -race
+    cat hoge.txt
 fi
